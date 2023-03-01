@@ -1,9 +1,9 @@
-# ![](./docs/fairpy_logo.png) FairPy: A Python Library for Machine Learning Fairness
+# ![](./docs/fairpy_logo.png)
 
-FairPy is a comprehensive python library for **machine learning fairness**, covering various fairness **notions**, multiple advanced fair **algorithms**, and corresponding experimental **datasets**.
+**FairPy** is a comprehensive python library for **Machine Learning Fairness**, covering various fairness **notions**, multiple advanced fair **algorithms**, and corresponding experimental **datasets**.
 FairPy served as a good toolkit for mitigating bias and helping to deliver equitable outcomes from machine learning models.
 
-Reach AI Fairness with few lines of codes:
+Reach Fairness with few lines of codes:
 ```python
 from fairpy.dataset import Adult
 from fairpy.model import LabelBias
@@ -15,7 +15,7 @@ model.fit(split_data.X_train, split_data.y_train, split_data.s_train)
 model.predict(split_data.X_test)
 ```
 
-Want to learn more about machine learning fairness? Check our actively maintained paper list: [Awesome Machine Learning Fairness](https://github.com/brandeis-machine-learning/awesome-ml-fairness).
+Interested in machine learning fairness? Check our actively maintained paper and resource list: [Awesome Machine Learning Fairness](https://github.com/brandeis-machine-learning/awesome-ml-fairness).
 
 ## Installation
 
@@ -63,17 +63,18 @@ We collect the following datasets for easy experiments. Data will be automatical
 
 ## Reference
 
-[1] Data preprocessing techniques for classification without discrimination  
-[2] Identifying and Correcting Label Bias in Machine Learning  
-[3] Empirical risk minimization under fairness constraints  
-[4] Certifying and Removing Disparate Impact  
-[5] Fairness Constraints: Mechanisms for Fair Classification  
-[6] Equality of opportunity in supervised learning  
-[7] Fair Generalized Linear Models with a Convex Penalty  
-[8] The Fairness of Risk Scores Beyond Classification: Bipartite Ranking and the xAUC Metric  
-[9] Achieving Fairness at No Utility Cost via Data Reweighing with Influence  
-[10] iFair: Learning Individually Fair Data Representations for Algorithmic Decision Making  
-[11] FA*IR: A Fair Top-k Ranking Algorithm  
-[12] Policy Learning for Fairness in Ranking  
+1. Data preprocessing techniques for classification without discrimination  
+2. Identifying and Correcting Label Bias in Machine Learning  
+3. Empirical risk minimization under fairness constraints  
+4. Certifying and Removing Disparate Impact  
+5. Fairness Constraints: Mechanisms for Fair Classification  
+6. Equality of opportunity in supervised learning  
+7. Fair Generalized Linear Models with a Convex Penalty  
+8. The Fairness of Risk Scores Beyond Classification: Bipartite Ranking and the xAUC Metric  
+9. Achieving Fairness at No Utility Cost via Data Reweighing with Influence  
+10. iFair: Learning Individually Fair Data Representations for Algorithmic Decision Making  
+11. FA*IR: A Fair Top-k Ranking Algorithm  
+12. Policy Learning for Fairness in Ranking  
+
 
 
