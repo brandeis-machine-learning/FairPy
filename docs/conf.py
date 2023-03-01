@@ -45,4 +45,4 @@ bibtex_bibfiles = ['ref.bib']
 # exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # html_favicon = 'fairpy_ico.png'
-html_logo = 'fairpy_logo.png'
+# html_logo = 'fairpy_logo.png'
