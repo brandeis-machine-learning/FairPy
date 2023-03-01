@@ -46,3 +46,11 @@ bibtex_bibfiles = ['ref.bib']
 
 # html_favicon = 'fairpy_ico.png'
 # html_logo = 'fairpy_logo.png'
+
+
+autodoc_typehints_format = 'short'
+python_use_unqualified_type_names = True
+autodoc_type_aliases = {
+    'Iterable': 'Iterable',
+    'ArrayLike': 'ArrayLike'
+}
