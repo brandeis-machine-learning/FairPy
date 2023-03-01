@@ -9,3 +9,4 @@ python:
     - requirements: docs/requirements.txt
     - package: .
       use_setup_py: true
+      path: .
