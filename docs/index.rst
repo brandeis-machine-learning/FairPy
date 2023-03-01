@@ -7,11 +7,11 @@
 FairPy Documentation
 =====================
 
-FairPy is a comprehensive **Python Library** for **Machine Learning Fairness**, covering various fairness notions, data structures, and learning tasks.
-TODO: This challenging field has many key Applications....
+FairPy is a comprehensive **Python Library** for **Machine Learning Fairness**, covering various fairness notions, data structures, and learning tasks. 
+FairPy is a good toolkit for mitigating bias and helping to deliver equitable outcomes from machine learning models.
 
 FairPy includes more than **10** latest fairness algorithms, such as InflFair (ICML'22) :cite:p:`li2022achieving` and FairGLM (ICML'22) :cite:p:`do2022fair`.
-For consistency and accessibility, FairPy is developed on top of `scikit-learn <https://scikit-learn.org/>`_ and `PyTorch <https://pytorch.org/>`_.
+For consistency and accessibility, FairPy is developed on top of `scikit-learn <https://scikit-learn.org/>` and `PyTorch <https://pytorch.org/>`.
 
 ----
 
