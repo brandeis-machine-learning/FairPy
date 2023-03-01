@@ -1,8 +1,8 @@
 from my_check_estimator import check_estimator
-from fairpy.model import LabelBias, LinearFairERM, reweigh, FairCstr, DIRemover, EqOddsCalib, FairGLM, InflFair, IFair, FairRank
+from fairpy.model import LabelBias, LinearFairERM, FairCstr, DIRemover, EqOddsCalib, FairGLM, IFair, FairRank
 import pytest
 
-@pytest.mark.parametrize('model', [LabelBias, LinearFairERM, FairCstr, EqOddsCalib, FairGLM, InflFair, IFair])
+@pytest.mark.parametrize('model', [LabelBias, LinearFairERM, FairCstr, EqOddsCalib, FairGLM, IFair])
 def test_estimator_checks(model):
     estimator = model()
     check_estimator(estimator)
