@@ -120,8 +120,10 @@ Ranking         dcg
    :hidden:
    :caption: API
 
-   fairpy.model
    fairpy.dataset
+   fairpy.metric
+   fairpy.model
+   fairpy.utils
 
 .. toctree::
    :maxdepth: 1
