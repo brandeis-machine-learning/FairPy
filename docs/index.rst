@@ -10,7 +10,7 @@ FairPy Documentation
 FairPy is a comprehensive **Python Library** for **Machine Learning Fairness**, covering various fairness notions, data structures, and learning tasks. 
 FairPy is a good toolkit for mitigating bias and helping to deliver equitable outcomes from machine learning models.
 
-FairPy includes more than **10** latest fairness algorithms, such as InflFair (ICML'22) :cite:p:`li2022achieving` and FairGLM (ICML'22) :cite:p:`do2022fair`.
+FairPy includes many latest fairness algorithms, such as LabelBias :cite:p:`jiang2020identifying` and FairGLM :cite:p:`do2022fair`.
 For consistency and accessibility, FairPy is developed on top of `scikit-learn <https://scikit-learn.org/>`_ and `PyTorch <https://pytorch.org/>`_.
 
 ----
@@ -64,12 +64,10 @@ FairPy toolkit consists of three major functional groups:
 ====  ==============  ==============  ====  ====
 Type  Name in FairPy  Task            Year  Ref
 ====  ==============  ==============  ====  ====
-Pre   reweigh         Any             2012  :cite:p:`kamiran2012data`
 Pre   LabelBias       Classification  2020  :cite:p:`jiang2020identifying`
 Pre   LinearFairERM   Any             2018  :cite:p:`donini2018empirical`
 Pre   DIRemover       Any             2015  :cite:p:`feldman2015certifying`
 Pre   IFair           Any             2019  :cite:p:`lahoti2019ifair`
-Pre   InflFair        Classification  2022  :cite:p:`li2022achieving`
 In    FairCstr        Classification  2017  :cite:p:`zafar2017fairness`
 In    FairGLM         Classification  2022  :cite:p:`do2022fair`
 In    FairPGRank      Ranking         2019  :cite:p:`singh2019policy`
@@ -122,7 +120,6 @@ Ranking         dcg
    fairpy.dataset
    fairpy.metric
    fairpy.model
-   fairpy.utils
 
 .. toctree::
    :maxdepth: 1
