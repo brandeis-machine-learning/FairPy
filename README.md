@@ -1,4 +1,4 @@
-# ![](./docs/fairpy_logo.png)
+### ![](./docs/fairpy_logo.png)
 
 **FairPy** is a comprehensive python library for **Machine Learning Fairness**, covering various fairness **notions**, multiple advanced fair **algorithms**, and corresponding experimental **datasets**.
 FairPy served as a good toolkit for mitigating bias and helping to deliver equitable outcomes from machine learning models.
