@@ -11,7 +11,7 @@ FairPy is a comprehensive **Python Library** for **Machine Learning Fairness**, 
 FairPy is a good toolkit for mitigating bias and helping to deliver equitable outcomes from machine learning models.
 
 FairPy includes more than **10** latest fairness algorithms, such as InflFair (ICML'22) :cite:p:`li2022achieving` and FairGLM (ICML'22) :cite:p:`do2022fair`.
-For consistency and accessibility, FairPy is developed on top of `scikit-learn <https://scikit-learn.org/>` and `PyTorch <https://pytorch.org/>`.
+For consistency and accessibility, FairPy is developed on top of `scikit-learn <https://scikit-learn.org/>`_ and `PyTorch <https://pytorch.org/>`_.
 
 ----
 
@@ -45,12 +45,11 @@ Sample Code of FairPy
     from fairpy.dataset import Adult
     from fairpy.model import LabelBias
 
-    model = LabelBias()     # Choose a fairness algorithm
-    dataset = Adult()       # Choose or customize a dataset
-    X, y, s = dataset.get_X_y_s()   # Extract features, labels, and sensitive attributes from the dataset
-
-    model.fit(X, y, s)      # Fit model with provided data
-    pred = model.predict(X) # Predict
+    dataset = Adult()                  # Choose or customize a dataset
+    split_data = dataset.split()       # Extract features, labels, and sensitive attributes from the dataset
+    model = LabelBias()                # Choose a fairness algorithm
+    model.fit(split_data.X_train, split_data.y_train, split_data.s_train)  # Fit model with provided data
+    model.predict(split_data.X_test)   # Predict
 
 ----
 
