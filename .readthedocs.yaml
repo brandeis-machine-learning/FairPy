@@ -7,5 +7,5 @@ python:
   version: 3.8
   install:
     - requirements: docs/requirements.txt
-    - package: fairpy
-      method: setup.py
+    - package: .
+      use_setup_py: true
